@@ -1,13 +1,13 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: 'https://meet-alex.herokuapp.com/',
   title: 'JS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Ogubuike Alexandra Ozioma',
+  role: 'Software Engineer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
   resume: 'https://example.com',
@@ -17,9 +17,7 @@ const about = {
   },
 }
 
-const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+const projects = [  
   {
     name: 'Project 1',
     description:
@@ -65,7 +63,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'ogubuikealex@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
